@@ -40,4 +40,4 @@ jobs:
           remote_host: ssh://root@${{secrets.DOCKER_IP}}
           ssh_private_key: ${{ secrets.DOCKER_SSH_PRIVATE_KEY }}
           ssh_public_key: ${{ secrets.DOCKER_SSH_PUBLIC_KEY }}
-          args: service update --image josemanu/micros:hw-latest
+          args: service update --image josemanu/micros:hw-latest hello-world
